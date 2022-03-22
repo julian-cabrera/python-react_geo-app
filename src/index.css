@@ -1,0 +1,73 @@
+:root {
+	--c-back-darker: #242423;
+	--c-back-dark: #333533;
+	--c-gold: #f5cb5c;
+	--c-light: #cfdbd5;
+	--c-lighter: #e8eddf;
+}
+
+body {
+	background-color: var(--c-back-darker) !important;
+	color: var(--c-lighter) !important;
+	font-family: "Architects Daughter" !important;
+}
+a {
+	font-family: "Permanent Marker" !important;
+	color: var(--c-gold) !important;
+}
+input::placeholder,
+input:focus {
+	color: var(--c-light) !important;
+	background-color: var(--c-back-darker) !important;
+}
+table {
+	background-color: var(--c-back-dark);
+	border-radius: 1rem;
+}
+thead {
+	color: var(--c-lighter);
+}
+tbody {
+	color: var(--c-light);
+}
+tr:hover {
+	background-color: var(--c-back-darker);
+}
+hr {
+	color: var(--c-gold);
+}
+.mi-bg-darker {
+	background-color: var(--c-back-darker) !important;
+}
+.mi-bg-dark {
+	background-color: var(--c-back-dark) !important;
+}
+.mi-bg-gold {
+	background-color: var(--c-gold) !important;
+}
+.mi-text-gold {
+	color: var(--c-gold) !important;
+}
+.mi-text-light {
+	color: var(--c-light) !important;
+}
+.mi-text-lighter {
+	color: var(--c-lighter) !important;
+}
+.text-title {
+	font-family: "Permanent Marker" !important;
+}
+.text-content {
+	font-family: "Architects Daughter" !important;
+}
+.icon-btn {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.icon-del-btn {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+.border-gold {
+	border-color: var(--c-gold) !important;
+}
